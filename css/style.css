@@ -59,3 +59,130 @@ p {
     margin-bottom: 20px;
     display: block;
 }
+
+.overview,
+.workflow,
+.contact {
+    margin-top: 70px;
+}
+
+.overview h2,
+.workflow h2,
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.overview ul {
+    font-size: 18px;
+    line-height: 1.8;
+    padding-left: 24px;
+}
+
+.workflow-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.workflow-grid div {
+    background: white;
+    border: 1px solid #d7dde3;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.workflow-grid strong {
+    font-size: 20px;
+}
+
+.workflow-grid p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.contact {
+    padding-bottom: 70px;
+}
+
+.contact-button {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 14px 24px;
+    background: #1f2933;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 17px;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.contact-button:hover {
+    background: #334155;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 900px) {
+    .workflow-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 24px;
+    }
+
+    .workflow-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contact-form {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 14px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: 1px solid #cbd3db;
+    border-radius: 8px;
+    background: white;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #64748b;
+}
+
+.contact-form .contact-button {
+    align-self: flex-start;
+    border: none;
+    cursor: pointer;
+}
+
+.thank-you {
+    max-width: 700px;
+    margin-top: 120px;
+}
+
+.thank-you h1 {
+    font-size: 42px;
+}
+
+.thank-you p {
+    margin-bottom: 28px;
+}
