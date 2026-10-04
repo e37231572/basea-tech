@@ -8,7 +8,7 @@
     <title>BaseA Tech – Technischer Entwurf und Dokumentation</title>
 
     <meta name="description"
-          content="BaseA Tech erstellt Schaltpläne, PCB-Layouts, technische Zeichnungen und professionelle technische Dokumentation.">
+          content="BaseA Tech unterstützt bei Elektronik, mechanischer Konstruktion und professioneller technischer Dokumentation.">
 
     <meta name="robots" content="index, follow">
 
@@ -17,139 +17,112 @@
 
 <body>
 
-    <h1>BaseA Tech</h1>
+<header class="site-header">
+    <a href="index.html" class="logo">BaseA Tech</a>
 
-    <h2>
-        Technischer Entwurf bis zur fertigen Dokumentation.
-    </h2>
+    <nav class="main-nav" aria-label="Hauptnavigation">
+        <a href="elektronik.html">Elektronik</a>
+        <a href="mechanik.html">Mechanik</a>
+        <a href="dokumentation.html">Dokumentation</a>
+        <a href="anfrage.html">Projektanfrage</a>
+    </nav>
+</header>
 
-    <p>
-        Schaltpläne, PCB-Layouts, technische Zeichnungen
-        und professionelle technische Dokumentation.
-    </p>
+<main>
 
-<section class="services">
+    <section class="hero">
 
-    <div class="service-card">
-        <img src="images/electronics.png"
-             alt="Schaltplan und PCB-Layout"
-             class="service-image">
+        <h1>BaseA Tech</h1>
 
-        <h3>Elektronik</h3>
-
-        <p>
-            Schaltpläne, PCB-Layouts und Stücklisten
-            für elektronische Baugruppen und technische Projekte.
-        </p>
-    </div>
-
-
-    <div class="service-card">
-        <img src="images/mechanics.png"
-             alt="Technische Zeichnung einer Getriebebaugruppe"
-             class="service-image">
-
-        <h3>Mechanik</h3>
+        <h2>
+            Technischer Entwurf bis zur fertigen Dokumentation.
+        </h2>
 
         <p>
-            Technische Zeichnungen, Baugruppenansichten
-            und Konstruktionsunterlagen für mechanische Bauteile.
+            Unterstützung bei Elektronik, mechanischer Konstruktion
+            und technischer Dokumentation – strukturiert von der
+            Aufgabenstellung bis zu den fertigen Projektunterlagen.
         </p>
-    </div>
+
+    </section>
 
 
-    <div class="service-card">
-        <img src="images/documentation.png"
-             alt="Technische Dokumentation mit Tabellen und Diagrammen"
-             class="service-image">
+    <section class="services">
 
-        <h3>Dokumentation</h3>
+        <a href="elektronik.html" class="service-link">
 
-        <p>
-            Professionelle technische Dokumentation,
-            Datenblätter, Berichte, Tabellen und Diagramme.
-        </p>
-    </div>
+            <div class="service-card">
 
-</section>
+                <img src="images/electronics.png"
+                     alt="Schaltplan und PCB-Layout"
+                     class="service-image">
 
-<section class="overview">
-    <h2>Leistungen im Überblick</h2>
+                <h3>Elektronik</h3>
 
-    <ul>
-        <li>Schaltplanerstellung und Überarbeitung</li>
-        <li>PCB-Layout und Leiterplattenvorbereitung</li>
-        <li>Stücklisten und Bauteilübersichten</li>
-        <li>Technische Zeichnungen und Baugruppenansichten</li>
-        <li>Technische Dokumentation und Datenblätter</li>
-        <li>Tabellen, Diagramme und automatisierte Auswertungen</li>
-    </ul>
-</section>
+                <p>
+                    Schaltpläne, PCB-Layouts und Stücklisten
+                    für elektronische Baugruppen und technische Projekte.
+                </p>
 
-<section class="workflow">
-    <h2>So läuft ein Projekt ab</h2>
+                <span class="service-more">
+                    Mehr erfahren →
+                </span>
 
-    <div class="workflow-grid">
-        <div>
-            <strong>1. Anfrage</strong>
-            <p>Kurze Beschreibung der Aufgabe und vorhandene Unterlagen senden.</p>
-        </div>
+            </div>
 
-        <div>
-            <strong>2. Abstimmung</strong>
-            <p>Anforderungen, Umfang und gewünschte Ergebnisse werden geklärt.</p>
-        </div>
+        </a>
 
-        <div>
-            <strong>3. Bearbeitung</strong>
-            <p>Erstellung von Schaltplan, Layout, Zeichnung oder Dokumentation.</p>
-        </div>
 
-        <div>
-            <strong>4. Übergabe</strong>
-            <p>Bereitstellung der vereinbarten Projektdateien und Dokumentation.</p>
-        </div>
-    </div>
-</section>
+        <a href="mechanik.html" class="service-link">
 
-<section class="contact">
-    <h2>Projektanfrage</h2>
+            <div class="service-card">
 
-    <p>
-        Sie möchten ein technisches Projekt besprechen?
-        Senden Sie eine kurze Beschreibung Ihrer Aufgabe.
-    </p>
+                <img src="images/mechanics.png"
+                     alt="Technische Zeichnung einer Getriebebaugruppe"
+                     class="service-image">
 
-    <form class="contact-form"
-          action="https://formspree.io/f/mjyvqeoq"
-          method="POST">
+                <h3>Mechanik</h3>
 
-        <label for="name">Name</label>
-        <input type="text"
-               id="name"
-               name="name"
-               placeholder="Ihr Name"
-               required>
+                <p>
+                    Technische Zeichnungen, Baugruppenansichten
+                    und Konstruktionsunterlagen für mechanische Bauteile.
+                </p>
 
-        <label for="email">E-Mail</label>
-        <input type="email"
-               id="email"
-               name="email"
-               placeholder="Ihre E-Mail-Adresse"
-               required>
+                <span class="service-more">
+                    Mehr erfahren →
+                </span>
 
-        <label for="message">Projektbeschreibung</label>
-        <textarea id="message"
-                  name="message"
-                  rows="6"
-                  placeholder="Kurze Beschreibung Ihres Projekts"
-                  required></textarea>
+            </div>
 
-        <button type="submit" class="contact-button">
-            Projekt anfragen
-        </button>
-    </form>
-</section>
+        </a>
+
+
+        <a href="dokumentation.html" class="service-link">
+
+            <div class="service-card">
+
+                <img src="images/documentation.png"
+                     alt="Technische Dokumentation mit Tabellen und Diagrammen"
+                     class="service-image">
+
+                <h3>Dokumentation</h3>
+
+                <p>
+                    Professionelle technische Dokumentation,
+                    Datenblätter, Berichte, Tabellen und Diagramme.
+                </p>
+
+                <span class="service-more">
+                    Mehr erfahren →
+                </span>
+
+            </div>
+
+        </a>
+
+    </section>
+
+</main>
 
 </body>
 
